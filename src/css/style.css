@@ -1,4 +1,5 @@
 :root {
+  --base-fontsize: 1.2em;
   --bg: white;
   --bg-accent: rgb(205, 215, 214);
   --primary-accent-bg: rgb(16, 37, 66);
