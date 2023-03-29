@@ -1,6 +1,7 @@
 ---
 title: home
 layout: base.njk
+tags: page
 ---
 
 # Russell Johnson

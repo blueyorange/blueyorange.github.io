@@ -10,9 +10,13 @@
   <body>
     <header>
       <ul>
-          {% for entry in collections.all %}
+          {% for entry in collections.page %}
             <li>
-                <a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page" class="active"{% endif %}>{{ entry.data.title }}</a>
+                <a href="{{ entry.url }}"
+                {% if entry.url == page.url %} aria-current="page" class="active"
+                {% endif %}>
+                {{ entry.data.title }}
+                </a>
             </li>
         {% endfor %}
       </ul>
