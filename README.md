@@ -1,2 +1,3 @@
-# blueyorange.github.io
-My presentations
+# My developer portfolio
+
+A portfolio site built with eleventy.
