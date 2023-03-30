@@ -9,19 +9,18 @@
   </head>
   <body>
     <header>
-      <ul>
+      <nav class="navbar">
           {% for entry in collections.page %}
-            <li>
-                <a href="{{ entry.url }}"
-                {% if entry.url == page.url %} aria-current="page" class="active"
-                {% endif %}>
-                {{ entry.data.title }}
-                </a>
-            </li>
+            <a href="{{ entry.url }}"
+            class="link {% if entry.url == page.url %}active{% endif %}"
+             aria-current="page"
+            >
+            {{ entry.data.title }}
+            </a>
         {% endfor %}
-      </ul>
+      </nav>
     </header>
-    <main>
+    <main class="main">
       {{ content | safe }}
     </main>
   </body>
