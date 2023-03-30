@@ -4,7 +4,7 @@ layout: base.njk
 tags: page
 ---
 
-## Russell Johnson
+# Russell Johnson
 
 I am a **Physics Teacher** turned **Full Stack Web Developer**.
 
