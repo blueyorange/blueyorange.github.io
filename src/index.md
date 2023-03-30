@@ -1,10 +1,10 @@
 ---
 title: home
-layout: base.njk
+layout: home.njk
 tags: page
 ---
 
-# Russell Johnson
+## Russell Johnson
 
 ![profile picture](./images/profile.JPG)
 

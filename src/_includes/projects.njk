@@ -1,0 +1,21 @@
+---
+layout: base.njk
+---
+
+{{ content | safe }}
+
+<div class="projects">
+    {% for project in collections.projects %}
+    <article class="project">
+        <div class="image-wrapper">
+            <img src="../images/{{project.data.image}}"/>
+        </div>
+        <div class="body">
+            <h2 class="title">{{ project.data.title }}</h2>
+            {{ project.content | safe }}
+        </div>
+    </article>
+    {% endfor %}
+</div>
+
+

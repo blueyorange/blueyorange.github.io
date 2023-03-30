@@ -1,5 +1,9 @@
 ---
 title: projects
-layout: base.njk
+layout: projects.njk
 tags: page
 ---
+
+# Projects
+
+Here are some things I have worked on.
