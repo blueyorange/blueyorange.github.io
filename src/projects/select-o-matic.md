@@ -1,8 +1,8 @@
 ---
 title: Select-o-matic
 tags: projects
-source-url: https://github.com/blueyorange/wheel-of-names
-host-url: https://blueyorange.github.io/wheel-of-names/
+source: https://github.com/blueyorange/wheel-of-names
+host: https://blueyorange.github.io/wheel-of-names/
 image: select-o-matic.png
 ---
 
