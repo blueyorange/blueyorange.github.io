@@ -11,6 +11,16 @@ layout: base.njk
             <img src="../images/{{project.data.image}}"/>
         </div>
         <div class="body">
+            <nav class="nav">
+                {% if project.data.source %}
+                <a href={{ project.data.source }}>
+                    source
+                </a>
+                <a href={{ project.data.host }}>
+                    hosted
+                </a>
+                {% endif %}
+            </nav>
             <h2 class="title">{{ project.data.title }}</h2>
             {{ project.content | safe }}
         </div>
