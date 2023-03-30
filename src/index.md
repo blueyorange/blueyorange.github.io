@@ -6,6 +6,19 @@ tags: page
 
 # Russell Johnson
 
-## Programmer | Web Developer | Physics Teacher
+![profile picture](./images/profile.JPG)
 
-I like to make things with javascript, html, and css.
+I am a **Physics Teacher** turned **Full Stack Web Developer**.
+
+I like to make things in **html**, **css**, and **javscript**.
+
+Here are some technologies I have experience of:
+
+- Javascript
+- C#
+- MongoDB
+- React
+- Eleventy
+- Node JS
+- Python
+- Express
