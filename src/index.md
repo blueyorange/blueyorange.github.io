@@ -1,12 +1,10 @@
 ---
 title: home
-layout: home.njk
+layout: base.njk
 tags: page
 ---
 
 ## Russell Johnson
-
-![profile picture](./images/profile.JPG)
 
 I am a **Physics Teacher** turned **Full Stack Web Developer**.
 
