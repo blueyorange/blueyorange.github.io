@@ -4,7 +4,9 @@ layout: base.njk
 tags: page
 ---
 
-# Russell Johnson
+# Russ Johnson
+
+![profile image](/images/profile.JPG)
 
 I am a **Physics Teacher** turned **Full Stack Web Developer**.
 
@@ -20,3 +22,4 @@ Here are some technologies I have experience of:
 - Node JS
 - Python
 - Express
+- Nunjucks
