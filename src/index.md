@@ -18,8 +18,7 @@ Here are some technologies I have experience of:
 - C#
 - MongoDB
 - React
+- Lit
 - Eleventy
-- Node JS
 - Python
 - Express
-- Nunjucks

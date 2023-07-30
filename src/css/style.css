@@ -37,22 +37,26 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--accent);
+  color: var(--text);
+  border-bottom: 3px solid var(--bg);
 }
 
 a:hover {
   color: var(--text);
-  transition: color 0.5s ease;
+  transition: all 0.5s ease;
+  border-bottom: 3px solid var(--accent);
 }
 
 a.active {
-  color: var(--text);
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
 }
 
 img {
   width: 200px;
   height: auto;
   border-radius: 0.5em;
+  float: left;
 }
 
 ul {
@@ -130,7 +134,7 @@ li {
 .project .nav {
   display: flex;
   justify-content: space-around;
-  margin: 0;
+  margin: 0.5em 0.2em;
   padding: 0;
 }
 
