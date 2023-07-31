@@ -21,4 +21,6 @@ Here are some technologies I have experience of:
 - Lit
 - Eleventy
 - Python
+- Flask
+- OpenCV
 - Express

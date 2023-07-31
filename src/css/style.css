@@ -55,7 +55,6 @@ a.active {
 img {
   width: 200px;
   height: auto;
-  border-radius: 0.5em;
   float: left;
 }
 
@@ -69,7 +68,7 @@ li {
   list-style-type: none;
   background-color: var(--accent);
   color: var(--text);
-  padding: 0.4em 0.6em;
+  padding: 0.4em 0.8em;
   border: 2px solid var(--border);
   border-radius: 0.5em;
   margin: 1em;
@@ -117,8 +116,8 @@ li {
 }
 
 .project .image-wrapper img {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 400px;
   object-fit: cover;
   object-position: 50% 50%;
   border-radius: 0;
@@ -128,7 +127,6 @@ li {
   flex: 5 0 200px;
   min-width: 200px;
   margin-left: 1em;
-  max-height: 300px;
 }
 
 .project .nav {

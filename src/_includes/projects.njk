@@ -7,15 +7,19 @@ layout: base.njk
 <div class="projects">
     {% for project in collections.projects %}
     <article class="project">
+        {% if project.data.image %}
         <div class="image-wrapper">
             <img src="../images/{{project.data.image}}"/>
         </div>
+        {% endif %}
         <div class="body">
             <nav class="nav">
                 {% if project.data.source %}
                 <a href={{ project.data.source }}>
-                    source
+                    github
                 </a>
+                {% endif %}
+                {% if project.data.host %}
                 <a href={{ project.data.host }}>
                     hosted
                 </a>

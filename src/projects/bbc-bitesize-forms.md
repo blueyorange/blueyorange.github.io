@@ -1,7 +1,7 @@
 ---
 title: BBC Bitesize to Google Forms
 tags: projects
-source-url: https://github.com/blueyorange/bitesize-forms/
+source: https://github.com/blueyorange/bitesize-forms/
 image: bitesize.png
 ---
 
